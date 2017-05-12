@@ -5,7 +5,7 @@ $("ul").on("click", "li", function(){
 
 //X exclui uma tarefa da lista
 $("ul").on("click", "span", function(event){
-	$(this).parent().fadeOut(800, function(){
+	$(this).parent().fadeOut(600, function(){
 		$(this).remove();
 	});
 	event.stopPropagation();
